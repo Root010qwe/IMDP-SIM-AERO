@@ -39,7 +39,7 @@ def test_small_batch():
     print("Запуск моделирования...")
     model.run()
     
-    # Проверяем результаты
+    # Проверяем результаты jerry
     print(f"\nРезультаты:")
     print(f"  Время завершения партии: {model.stats.batch_completion_time:.2f} часов")
     print(f"  Количество самолетов: {len(model.aircraft_list)}")
